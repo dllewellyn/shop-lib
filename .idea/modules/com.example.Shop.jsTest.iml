@@ -5,8 +5,8 @@
       <configuration version="3" platform="JavaScript " useProjectSettings="false" isTestModule="true" externalProjectId="Shop">
         <sourceSets>
           <sourceSet>com.example.Shop.jsMain</sourceSet>
-          <sourceSet>com.example.Shop.commonMain</sourceSet>
           <sourceSet>com.example.Shop.commonTest</sourceSet>
+          <sourceSet>com.example.Shop.commonMain</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <compilerSettings />
