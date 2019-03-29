@@ -6,10 +6,13 @@ import shop.local.models.CustomerPoints
 import shop.local.models.Points
 import shop.local.models.Shop
 import shop.local.utils.totalPoints
+import shop.local.common.*
 
-class CustomerShopListWriter : ShopCustomerReader, ShopCustomerWriter, CustomerPointsWriter, CustomerPointsReader {
+class CustomerShopListWriter : CustomerWriter, CustomerReader, ShopCustomerReader, ShopCustomerWriter, CustomerPointsWriter, CustomerPointsReader {
+
 
     private val linker = mutableMapOf<Shop, MutableList<CustomerPoints>>()
+    private val allCustomerList = mutableListOf<Customer>()
 
     override fun pointsForCustomerShop(customer: Customer, shop: Shop) :  List<Points> {
         return linker[shop]?.first { it.customer == customer}?.points ?: listOf()
@@ -31,6 +34,28 @@ class CustomerShopListWriter : ShopCustomerReader, ShopCustomerWriter, CustomerP
         }
     }
 
+    override fun allCustomers() = allCustomerList
+
+    override fun customerForQrCode(qrCode: QrCode) =  allCustomerList.first {
+        customer -> customer.qrCode == qrCode
+    }
+
+    override fun newCustomer(customer: Customer) {
+        allCustomerList.add(customer)
+    }
+
+}
+
+class Qr(val q : String) : QrCode {
+    override fun get() = q
+
+    override fun equals(other: Any?): Boolean {
+        return if (other is Qr) {
+            other.q == q
+        } else {
+            false
+        }
+    }
 }
 
 fun main(args : Array<String>) {
@@ -41,10 +66,14 @@ fun main(args : Array<String>) {
 
     val customerGenerator =  CustomerGenerator(
         uid = object  : UidGenerator {
-            override fun newUid() = "UIDA"
+            override fun newUid() : String {
+                return "UIDA"
+            }
         },
         qrCodeGenerator = object : QrCodeGenerator {
-            override fun generateNewQrCode(): String = "QrCode"
+            override fun generateNewQrCode() : QrCode {
+                return Qr("abc")
+            }
         })
 
 
@@ -52,10 +81,14 @@ fun main(args : Array<String>) {
     val customer = customerGenerator.generateUser()
 
     val customerShopList = CustomerShopListWriter()
+    customerShopList.newCustomer(customer)
     customerShopList.writeCustomerForShop(shop, customer)
-    customerShopList.addPoints(customer, shop, Points(0, 1))
-    customerShopList.addPoints(customer, shop, Points(0, 2))
 
-    println(customerShopList.pointsForCustomerShop(customer, shop).totalPoints())
+
+    val scanner = Scanner(customerShopList, shop, customerShopList, customerShopList)
+    scanner.scanToAddPoints(customer.qrCode, Points(0, 1))
+    scanner.scanToAddPoints(customer.qrCode, Points(0, 2))
+
+    println(scanner.scanForPoints(customer.qrCode).totalPoints())
 
 }

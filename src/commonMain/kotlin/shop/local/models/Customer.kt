@@ -1,3 +1,5 @@
 package shop.local.models
 
-data class Customer(val id : String, val qrCode : String)
+import shop.local.admin.QrCode
+
+data class Customer(val id : String, val qrCode : QrCode)

@@ -1,6 +1,5 @@
 package shop.local.admin
 
 interface QrCodeGenerator {
-
-    fun generateNewQrCode() : String
+    fun generateNewQrCode() : QrCode
 }

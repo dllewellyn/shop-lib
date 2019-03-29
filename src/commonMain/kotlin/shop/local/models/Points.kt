@@ -1,3 +1,8 @@
 package shop.local.models
 
-data class Points(val date : Long, val points : Int)
+enum class AddOrRemove {
+    ADD,
+    REMOVE
+}
+
+data class Points(val date : Long, val points : Int, val addOrRemove: AddOrRemove = AddOrRemove.ADD)
