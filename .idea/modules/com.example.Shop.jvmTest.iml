@@ -5,8 +5,8 @@
       <configuration version="3" platform="JVM 1.6" useProjectSettings="false" isTestModule="true" externalProjectId="Shop">
         <sourceSets>
           <sourceSet>com.example.Shop.commonMain</sourceSet>
-          <sourceSet>com.example.Shop.commonTest</sourceSet>
           <sourceSet>com.example.Shop.jvmMain</sourceSet>
+          <sourceSet>com.example.Shop.commonTest</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <compilerSettings />
