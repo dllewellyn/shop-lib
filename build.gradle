@@ -17,7 +17,6 @@ kotlin {
         commonMain {
             dependencies {
                 implementation kotlin('stdlib-common')
-                implementation "io.mockk:mockk:1.9.2.kotlin12"
             }
         }
         commonTest {
@@ -37,16 +36,19 @@ kotlin {
             dependencies {
                 implementation kotlin('test')
                 implementation kotlin('test-junit')
+                implementation "io.mockk:mockk:1.9.2.kotlin12"
             }
         }
         jsMain {
             dependencies {
                 implementation kotlin('stdlib-js')
+                
             }
         }
         jsTest {
             dependencies {
                 implementation kotlin('test-js')
+                implementation "io.mockk:mockk:1.9.2.kotlin12"
             }
         }
     }
