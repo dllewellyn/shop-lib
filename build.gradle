@@ -19,6 +19,11 @@ kotlin {
                 implementation kotlin('stdlib-common')
             }
         }
+        genericUI {
+            dependencies {
+                implementation kotlin('stdlib-common')
+            }
+        }
         commonTest {
             dependencies {
                 implementation kotlin('test-common')
