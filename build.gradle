@@ -19,7 +19,7 @@ kotlin {
                 implementation kotlin('stdlib-common')
             }
         }
-        genericUI {
+        customerInteractions {
             dependencies {
                 implementation kotlin('stdlib-common')
             }
@@ -35,6 +35,10 @@ kotlin {
         jvmMain {
             dependencies {
                 implementation kotlin('stdlib-jdk8')
+                implementation 'com.google.zxing:core:3.3.0'
+                implementation 'com.google.zxing:javase:3.3.0'
+
+
             }
         }
         jvmTest {

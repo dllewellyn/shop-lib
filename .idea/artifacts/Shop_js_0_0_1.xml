@@ -2,7 +2,7 @@
   <artifact type="jar" name="Shop-js-0.0.1">
     <output-path>$PROJECT_DIR$/build/libs</output-path>
     <root id="archive" name="Shop-js-0.0.1.jar">
-      <element id="module-output" name="com.example.Shop.jsMain" />
+      <element id="module-output" name="Shop_jsMain" />
     </root>
   </artifact>
 </component>

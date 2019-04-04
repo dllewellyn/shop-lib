@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.6" useProjectSettings="false" isTestModule="true" externalProjectId="Shop">
+        <sourceSets>
+          <sourceSet>Shop_commonTest</sourceSet>
+          <sourceSet>Shop_commonMain</sourceSet>
+          <sourceSet>Shop_jvmMain</sourceSet>
+        </sourceSets>
+        <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
+        <compilerSettings />
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../build/classes/kotlin/jvm/test" />
+          <option name="classpath" value="$MODULE_DIR$/../../build/classes/kotlin/jvm/main:/Users/danielllewellyn/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-junit/1.3.21/17d1a5cdd282f901004dea50a04ba363b4a9ccef/kotlin-test-junit-1.3.21.jar:/Users/danielllewellyn/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test/1.3.21/38d09017c4e62144d76281b35e9b1c17c22ef056/kotlin-test-1.3.21.jar:/Users/danielllewellyn/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-common/1.3.21/36470631bd1b5d7d78506e4dcb644e1b0d1708a8/kotlin-test-common-1.3.21.jar:/Users/danielllewellyn/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-annotations-common/1.3.21/fa06fbbfdd3ac286f91c2a320f67bcb3e1ff45ee/kotlin-test-annotations-common-1.3.21.jar:/Users/danielllewellyn/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.3.21/d0634d54452abc421db494ad32dd215e6591c49f/kotlin-stdlib-jdk8-1.3.21.jar:/Users/danielllewellyn/.gradle/caches/modules-2/files-2.1/io.mockk/mockk/1.9.2.kotlin12/4abfa3fcd4f732dc5017751832c17e729d9d2f76/mockk-1.9.2.kotlin12.jar:/Users/danielllewellyn/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-dsl-jvm/1.9.2.kotlin12/817863f6b323fefd53045a36a90ab545b871efd0/mockk-dsl-jvm-1.9.2.kotlin12.jar:/Users/danielllewellyn/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.71/7512db3b3182753bd2e48ce8d345abbadc40fe6b/kotlin-reflect-1.2.71.jar:/Users/danielllewellyn/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.21/d207ce2c9bcf17dc8e51bab4dbfdac4d013e7138/kotlin-stdlib-jdk7-1.3.21.jar:/Users/danielllewellyn/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/4bcc2012b84840e19e1e28074284cac908be0295/kotlin-stdlib-1.3.21.jar:/Users/danielllewellyn/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/f30e4a9897913e53d778f564110bafa1fef46643/kotlin-stdlib-common-1.3.21.jar:/Users/danielllewellyn/.gradle/caches/modules-2/files-2.1/com.google.zxing/javase/3.3.0/1d0cd0280ea9919ca928df5a3752b6f6a645b00e/javase-3.3.0.jar:/Users/danielllewellyn/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.3.0/73c49077166faa4c3c0059c5f583d1d7bd1475fe/core-3.3.0.jar:/Users/danielllewellyn/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-common/1.9.2.kotlin12/ed9151310b66b6bd02ba5f65112dfee51fc7fe41/mockk-common-1.9.2.kotlin12.jar:/Users/danielllewellyn/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-agent-jvm/1.9.2.kotlin12/8f337e431d756ca133c1ee2c0a6d8bb493700e1c/mockk-agent-jvm-1.9.2.kotlin12.jar:/Users/danielllewellyn/.gradle/caches/modules-2/files-2.1/com.beust/jcommander/1.48/bfcb96281ea3b59d626704f74bc6d625ff51cbce/jcommander-1.48.jar:/Users/danielllewellyn/.gradle/caches/modules-2/files-2.1/com.github.jai-imageio/jai-imageio-core/1.3.1/300f3f0dedfca37b3278991f9397354971b37156/jai-imageio-core-1.3.1.jar:/Users/danielllewellyn/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar:/Users/danielllewellyn/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-dsl/1.9.2.kotlin12/7c734697a3ba497e3162278453e26460d243299f/mockk-dsl-1.9.2.kotlin12.jar:/Users/danielllewellyn/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-agent-common/1.9.2.kotlin12/fb18e2357f04ff25105f9d5f3d5417a686fe7d99/mockk-agent-common-1.9.2.kotlin12.jar:/Users/danielllewellyn/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-agent-api/1.9.2.kotlin12/ac62982adb77ce032783a47ea86deb121942f919/mockk-agent-api-1.9.2.kotlin12.jar:/Users/danielllewellyn/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.6/639033469776fd37c08358c6b92a4761feb2af4b/objenesis-2.6.jar:/Users/danielllewellyn/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.9.3/f32e510b239620852fc9a2387fac41fd053d6a4d/byte-buddy-1.9.3.jar:/Users/danielllewellyn/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.9.3/f5b78c16cf4060664d80b6ca32d80dca4bd3d264/byte-buddy-agent-1.9.3.jar:/Users/danielllewellyn/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/danielllewellyn/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="Shop" />
+          <option name="addCompilerBuiltIns" value="true" />
+          <option name="loadBuiltInsFromDependencies" value="true" />
+          <option name="friendPaths">
+            <array>
+              <option value="$MODULE_DIR$/../../build/classes/kotlin/jvm/main" />
+            </array>
+          </option>
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="multiPlatform" value="true" />
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+</module>

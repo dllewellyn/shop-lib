@@ -7,5 +7,34 @@ package shop.local.utils
 data class Changes(val addedToNew : List<Int> = listOf(), val removedInNew : List<Int> = listOf(), val updatedInNew : List<Int> = listOf())
 
 fun <T,E>compare(initial : Map<T, E>, new : Map<T, E>) : Changes {
-    return Changes(listOf(), listOf(), listOf())
+
+    val addedToNew = mutableListOf<Int>()
+    val removedInNew = mutableListOf<Int>()
+    val updatedInNew = mutableListOf<Int>()
+
+    initial.keys.forEachIndexed {
+        index, t ->
+            if (!new.containsKey(t)) {
+                removedInNew.add(index)
+            }
+    }
+
+    new.keys.forEachIndexed {
+            index, t ->
+        if (!initial.containsKey(t)) {
+            addedToNew.add(index)
+        }
+    }
+
+    new.keys.forEachIndexed {
+        index, t ->
+        if (initial.containsKey(t)) {
+            if (initial[t] != new[t]) {
+                updatedInNew.add(index)
+            }
+        }
+    }
+
+
+    return Changes(addedToNew, removedInNew, updatedInNew)
 }
