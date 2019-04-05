@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0bd1670-5c64-4025-9c34-8cd4c24ee840" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Shop_commonMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Shop_commonTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Shop_customerInteractions.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Shop_genericUI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Shop_jsMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Shop_jsTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Shop_jvmMain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Shop_jvmTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customerInteractions/kotlin/shop/local/DisplayableShopGenerator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customerInteractions/kotlin/shop/local/MyPoints.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customerInteractions/kotlin/shop/local/MyRegisteredShops.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customerInteractions/kotlin/shop/local/RegisteredShop.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customerInteractions/kotlin/shop/local/RetrieveListScreen.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/shop/local/qrcode/QrCodeGenerator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jvmTest/kotlin/shop/local/qrcode/QrCodeGeneratorTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Shop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Shop_js_0_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Shop_js_0_0_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Shop_jvm_0_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Shop_jvm_0_0_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/sample/Sample.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customer/CustomerController.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/utils/Comparison.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/utils/Comparison.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonTest/kotlin/shop/local/TestChanges.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/shop/local/TestChanges.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genericUI/kotlin/shop/local/models/DisplayableShop.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/customerInteractions/kotlin/shop/local/DisplayableShop.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genericUI/kotlin/shop/local/models/DisplayableShopRetrieval.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/customerInteractions/kotlin/shop/local/DisplayableShopRetrieval.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jsMain/kotlin/sample/SampleJs.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jsTest/kotlin/sample/SampleTestsJS.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jvmMain/kotlin/sample/SampleJvm.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jvmTest/kotlin/sample/SampleTestsJVM.kt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -75,33 +42,13 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Shop" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="commonMain" type="396b929e:GradleViewContributor$SourceSetNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Shop" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="commonMain" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Shop" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="commonTest" type="396b929e:GradleViewContributor$SourceSetNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Shop" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="commonTest" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Shop" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -121,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/customerInteractions/kotlin/shop/local/RetrieveListScreen.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+            <state relative-caret-position="180">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -134,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/src/customerInteractions/kotlin/shop/local/DisplayableShopGenerator.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding>
                 <element signature="e#20#90#0" expanded="true" />
               </folding>
@@ -146,16 +93,16 @@
         <entry file="file://$PROJECT_DIR$/src/customerInteractions/kotlin/shop/local/DisplayableShopRetrieval.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -214,10 +161,10 @@
         <option value="$PROJECT_DIR$/src/customerInteractions/kotlin/shop/local/RegisteredShop.kt" />
         <option value="$PROJECT_DIR$/src/customerInteractions/kotlin/shop/local/MyRegisteredShops.kt" />
         <option value="$PROJECT_DIR$/src/customerInteractions/kotlin/shop/local/MyPoints.kt" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/customerInteractions/kotlin/shop/local/DisplayableShopRetrieval.kt" />
         <option value="$PROJECT_DIR$/src/customerInteractions/kotlin/shop/local/DisplayableShopGenerator.kt" />
         <option value="$PROJECT_DIR$/src/customerInteractions/kotlin/shop/local/RetrieveListScreen.kt" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -238,6 +185,11 @@
             <path>
               <item name="Shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="shop-lib" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop-lib" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Shop" type="b2602c69:ProjectViewProjectNode" />
@@ -332,7 +284,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QrCodeGeneratorTest.generate">
+  <component name="RunManager" selected="Gradle.shop-lib [wrapper]">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -344,6 +296,25 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="shop-lib [wrapper]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="wrapper" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="QrCodeGeneratorTest.generate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Shop_jvmTest" />
@@ -373,23 +344,6 @@
       <option name="PACKAGE_NAME" value="shop.local" />
       <option name="MAIN_CLASS_NAME" value="shop.local.TestChanges" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestChanges.TestThatYouCanCompareTwoMapsWithANewKey [jvmTest]" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="Shop_jvmTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="shop.local.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="shop.local" />
-      <option name="MAIN_CLASS_NAME" value="shop.local.TestChanges" />
-      <option name="METHOD_NAME" value="TestThatYouCanCompareTwoMapsWithANewKey" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -456,11 +410,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.shop-lib [wrapper]" />
         <item itemvalue="JUnit.QrCodeGeneratorTest.generate" />
         <item itemvalue="JUnit.TestChanges.testThatMultipleKeysInRandomOrderWorks [jvmTest]" />
         <item itemvalue="JUnit.TestChanges [jvmTest]" />
         <item itemvalue="JUnit.TestChanges.testThatYouCanCompareTwoMapsWithRemovedKey [jvmTest]" />
-        <item itemvalue="JUnit.TestChanges.TestThatYouCanCompareTwoMapsWithANewKey [jvmTest]" />
       </list>
     </recent_temporary>
   </component>
@@ -503,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553979760848</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="A lovely, working, cross platform shop...">
+      <created>1554403572525</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554403572531</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -542,7 +503,7 @@
     <frame x="0" y="23" width="1440" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -557,7 +518,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32882884" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32882884" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32991204" />
@@ -573,7 +534,7 @@
       <window_info anchor="right" id="Flutter Inspector" order="5" />
       <window_info anchor="right" id="Google Cloud Storage" order="6" />
       <window_info anchor="right" id="Flutter Outline" order="7" />
-      <window_info anchor="right" id="Gradle" order="8" weight="0.3297568" />
+      <window_info anchor="right" id="Gradle" order="8" visible="true" weight="0.3297568" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="11" />
@@ -841,17 +802,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/customerInteractions/kotlin/shop/local/DisplayableShopGenerator.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding>
             <element signature="e#20#90#0" expanded="true" />
           </folding>
@@ -861,7 +815,7 @@
     <entry file="file://$PROJECT_DIR$/src/customerInteractions/kotlin/shop/local/DisplayableShopRetrieval.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -874,8 +828,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/customerInteractions/kotlin/shop/local/RetrieveListScreen.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        <state relative-caret-position="180">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
