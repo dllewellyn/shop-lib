@@ -9,9 +9,6 @@ version '0.0.1'
 
 apply plugin: 'maven-publish'
 
-task wrapper(type: Wrapper) {
-    gradleVersion = '2.0'
-}
 
 kotlin {
     jvm()
