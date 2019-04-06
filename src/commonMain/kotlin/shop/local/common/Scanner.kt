@@ -1,8 +1,8 @@
-package shop.local.common
+package shop.local.customerui.common
 
-import shop.local.admin.CustomerPointsReader
-import shop.local.admin.CustomerPointsWriter
-import shop.local.admin.QrCode
+import shop.local.customerui.admin.CustomerPointsReader
+import shop.local.customerui.admin.CustomerPointsWriter
+import shop.local.customerui.admin.QrCode
 import shop.local.models.Customer
 import shop.local.models.Points
 import shop.local.models.Shop
@@ -10,7 +10,8 @@ import shop.local.models.Shop
 class Scanner(private val reader : CustomerReader,
               private val shop : Shop,
               private val customerPointsReader: CustomerPointsReader,
-              private val customerPointsWriter: CustomerPointsWriter) {
+              private val customerPointsWriter: CustomerPointsWriter
+) {
 
     fun scan(qrCode: QrCode) : Customer {
         return reader.customerForQrCode(qrCode)

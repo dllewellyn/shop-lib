@@ -1,4 +1,4 @@
-package shop.local
+package shop.local.customerui
 
 import shop.local.models.Shop
 

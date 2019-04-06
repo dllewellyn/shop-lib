@@ -1,4 +1,4 @@
-package shop.local.admin
+package shop.local.customerui.admin
 
 interface UidGenerator {
 

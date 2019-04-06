@@ -1,6 +1,6 @@
-package shop.local.common
+package shop.local.customerui.common
 
-import shop.local.admin.QrCode
+import shop.local.customerui.admin.QrCode
 import shop.local.models.Customer
 
 interface CustomerReader {

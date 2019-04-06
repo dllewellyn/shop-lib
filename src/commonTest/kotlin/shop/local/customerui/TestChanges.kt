@@ -1,4 +1,4 @@
-package shop.local
+package shop.local.customerui
 
 import shop.local.utils.Changes
 import shop.local.utils.compare

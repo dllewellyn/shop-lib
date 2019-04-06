@@ -1,4 +1,7 @@
-package shop.local.models
+package shop.local.customerui
+
+import shop.local.models.Shop
+import shop.local.models.ShopLocation
 
 abstract class DisplayableShopRetrieval(private val shop : Shop, private val shopLocation : ShopLocation) {
 

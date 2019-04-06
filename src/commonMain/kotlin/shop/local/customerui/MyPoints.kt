@@ -1,6 +1,6 @@
-package shop.local
+package shop.local.customerui
 
-import shop.local.admin.CustomerPointsReader
+import shop.local.customerui.admin.CustomerPointsReader
 import shop.local.models.Customer
 import shop.local.models.Shop
 

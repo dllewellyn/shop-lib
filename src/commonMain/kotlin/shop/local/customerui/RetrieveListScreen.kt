@@ -1,6 +1,4 @@
-package shop.local
-
-import shop.local.models.DisplayableShop
+package shop.local.customerui
 
 abstract class RetrieveListScreen(val pointsReader : MyPoints, val registeredShop: MyRegisteredShops, val displayableShopGenerator: DisplayableShopGenerator) {
 

@@ -1,4 +1,4 @@
-package shop.local.qrcode
+package shop.local.customerui.qrcode
 
 import org.junit.Test
 import java.io.FileOutputStream

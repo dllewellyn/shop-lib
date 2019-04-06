@@ -1,6 +1,5 @@
-package shop.local
+package shop.local.customerui
 
-import shop.local.models.DisplayableShop
 import shop.local.models.Shop
 
 interface DisplayableShopGenerator {

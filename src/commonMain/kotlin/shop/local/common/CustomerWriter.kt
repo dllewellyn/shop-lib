@@ -1,4 +1,4 @@
-package shop.local.common
+package shop.local.customerui.common
 
 import shop.local.models.Customer
 
