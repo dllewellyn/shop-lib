@@ -2,46 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0bd1670-5c64-4025-9c34-8cd4c24ee840" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/DisplayableShop.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jvmTest/kotlin/shop/local/customerui/qrcode/RetrieveShopScreenTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/common/ChangeType.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/ShopGenerator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/ShopGenerator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/admin/CustomerGenerator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/admin/CustomerGenerator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/admin/CustomerPointsReader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/admin/CustomerPointsReader.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/admin/CustomerPointsWriter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/admin/CustomerPointsWriter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/admin/QrCode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/admin/QrCode.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/admin/QrCodeGenerator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/admin/QrCodeGenerator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/admin/ShopCustomerReader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/admin/ShopCustomerReader.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/admin/ShopCustomerWriter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/admin/ShopCustomerWriter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/admin/ShopGenerator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/admin/ShopGenerator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/admin/UidGenerator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/admin/UidGenerator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/common/CustomerReader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/common/CustomerReader.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/common/CustomerWriter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/common/CustomerWriter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/common/Scanner.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/common/Scanner.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/models/Customer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/models/Customer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/models/CustomerPoints.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/models/CustomerPoints.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/models/Points.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/models/Points.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/models/Shop.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/models/Shop.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/models/ShopLocation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/models/ShopLocation.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/utils/Comparison.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/utils/Comparison.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/utils/TotalPoints.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/utils/TotalPoints.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonTest/kotlin/shop/local/TestChanges.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/shop/local/customerui/TestChanges.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/customerInteractions/kotlin/shop/local/DisplayableShop.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/customerInteractions/kotlin/shop/local/DisplayableShopGenerator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/DisplayableShopGenerator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/customerInteractions/kotlin/shop/local/DisplayableShopRetrieval.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/DisplayableShopRetrieval.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/customerInteractions/kotlin/shop/local/MyPoints.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/MyPoints.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/customerInteractions/kotlin/shop/local/MyRegisteredShops.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/MyRegisteredShops.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/customerInteractions/kotlin/shop/local/RegisteredShop.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/RegisteredShop.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/customerInteractions/kotlin/shop/local/RetrieveListScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/RetrieveListScreen.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jvmMain/kotlin/shop/local/qrcode/QrCodeGenerator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/shop/local/customerui/qrcode/QrCodeGenerator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jvmTest/kotlin/shop/local/qrcode/QrCodeGeneratorTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmTest/kotlin/shop/local/customerui/qrcode/QrCodeGeneratorTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/MyRegisteredShops.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/MyRegisteredShops.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/RetrieveListScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/RetrieveListScreen.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -104,91 +70,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/main.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="98" column="3" lean-forward="true" selection-start-line="98" selection-start-column="3" selection-end-line="98" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/DisplayableShop.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/DisplayableShopRetrieval.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/MyPoints.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="e#31#150#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/RetrieveListScreen.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/DisplayableShopGenerator.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradle.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jvmTest/kotlin/shop/local/customerui/qrcode/RetrieveShopScreenTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="240">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -257,8 +143,10 @@
         <option value="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/DisplayableShopGenerator.kt" />
         <option value="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/DisplayableShopRetrieval.kt" />
         <option value="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/MyPoints.kt" />
-        <option value="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/RetrieveListScreen.kt" />
         <option value="$PROJECT_DIR$/src/jvmTest/kotlin/shop/local/customerui/qrcode/RetrieveShopScreenTest.kt" />
+        <option value="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/common/ChangeType.kt" />
+        <option value="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/MyRegisteredShops.kt" />
+        <option value="$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/RetrieveListScreen.kt" />
       </list>
     </option>
   </component>
@@ -288,12 +176,6 @@
             <path>
               <item name="Shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="shop-lib" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-lib" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -316,6 +198,15 @@
               <item name="commonMain" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="local" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop-lib" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="commonMain" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Shop" type="b2602c69:ProjectViewProjectNode" />
@@ -325,6 +216,15 @@
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="local" type="462c0819:PsiDirectoryNode" />
               <item name="customerui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop-lib" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="commonMain" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Shop" type="b2602c69:ProjectViewProjectNode" />
@@ -369,8 +269,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -634,9 +534,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="774" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -651,13 +550,13 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32882884" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32882884" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32882884" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Flutter Performance" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32882884" />
+      <window_info anchor="bottom" id="Messages" order="14" visible="true" weight="0.32882884" />
       <window_info anchor="bottom" id="GitHub Pull Requests" order="15" visible="true" weight="0.32991204" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -755,13 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/common/CustomerWriter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/admin/CustomerGenerator.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -795,24 +687,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/utils/Comparison.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/sample/Sample.kt" />
-    <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/common/Scanner.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="69" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
-          <folding>
-            <element signature="e#27#243#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/jvmTest/kotlin/shop/local/customerui/qrcode/QrCodeGeneratorTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -837,30 +712,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customer/CustomerController.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="e#29#90#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customer/CustomerController.kt" />
     <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/models/Shop.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/RegisteredShop.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="25" />
-          <folding>
-            <element signature="e#20#81#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -878,13 +734,6 @@
           <folding>
             <element signature="e#27#91#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/MyRegisteredShops.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -922,34 +771,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/DisplayableShopGenerator.kt">
+    <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/RegisteredShop.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        <state relative-caret-position="60">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/DisplayableShopRetrieval.kt">
+    <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/DisplayableShop.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        <state relative-caret-position="60">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/MyPoints.kt">
+    <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/utils/Comparison.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#31#150#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/RetrieveListScreen.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="465">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -960,17 +799,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/main.kt">
+    <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/DisplayableShopGenerator.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="98" column="3" lean-forward="true" selection-start-line="98" selection-start-column="3" selection-end-line="98" selection-end-column="3" />
+        <state relative-caret-position="75">
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/DisplayableShop.kt">
+    <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/DisplayableShopRetrieval.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding>
+            <element signature="e#31#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="98" column="3" selection-start-line="98" selection-start-column="3" selection-end-line="98" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/MyPoints.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding>
+            <element signature="e#31#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/common/Scanner.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="11" column="69" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/common/CustomerWriter.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/common/ChangeType.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/MyRegisteredShops.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="e#31#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commonMain/kotlin/shop/local/customerui/RetrieveListScreen.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
         </state>
       </provider>
     </entry>
