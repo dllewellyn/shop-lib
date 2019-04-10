@@ -1,8 +1,10 @@
 package shop.local.customerui
 
+import shop.local.customerui.admin.ShopCustomerCallback
+
 open class RetrieveListScreen(val pointsReader : MyPoints, val registeredShop: MyRegisteredShops, val displayableShopGenerator: DisplayableShopGenerator) {
 
-    private val changeReceivers = mutableListOf<ChangeCallback>()
+    private val changeReceivers = mutableListOf<ShopCustomerCallback>()
 
     init {
         registeredShop.registerForChange {
@@ -13,7 +15,7 @@ open class RetrieveListScreen(val pointsReader : MyPoints, val registeredShop: M
         }
     }
 
-    fun registerForChange(changeCallback: ChangeCallback) {
+    fun registerForShopChanges(changeCallback: ShopCustomerCallback) {
         changeReceivers.add(changeCallback)
     }
 
